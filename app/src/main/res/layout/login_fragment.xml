@@ -5,18 +5,33 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/usernameEditText"
+    <ProgressBar
+        android:id="@+id/LoadingProgress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="@string/username" />
+        android:visibility="gone">
+    </ProgressBar>
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        android:hint="@string/username"
+        android:maxLength="30"
+        android:maxLines="1" />
 
     <EditText
         android:id="@+id/passwordEditText"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
         android:hint="@string/password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:maxLength="30"
+        android:maxLines="1" />
 
     <Button
         android:id="@+id/enterButton"
