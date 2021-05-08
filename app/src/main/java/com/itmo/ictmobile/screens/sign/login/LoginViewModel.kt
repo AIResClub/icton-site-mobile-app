@@ -1,4 +1,7 @@
 package com.itmo.ictmobile.screens.sign.login
 
-class LoginViewModel {
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+
+class LoginViewModel(application: Application) : AndroidViewModel(application) {
 }

@@ -1,4 +1,7 @@
 package com.itmo.ictmobile.screens.sign.register
 
-class RegisterViewModel {
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+
+class RegisterViewModel(application: Application) : AndroidViewModel(application) {
 }

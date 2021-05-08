@@ -14,14 +14,16 @@ class UserRepository(private val database: FirebaseFirestore) {
             ref.get().addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     val document = task.result
-                    if (document.exists()) {
-                        emitter.onError(Exception("User exists"))
-                    } else {
-                        database.collection("users")
-                            .document(user.username)
-                            .set(user)
-                            .addOnSuccessListener { emitter.onSuccess(user) }
-                            .addOnFailureListener { emitter.onError(it) }
+                    if (document != null) {
+                        if (document.exists()) {
+                            emitter.onError(Exception("User exists"))
+                        } else {
+                            database.collection("users")
+                                .document(user.username)
+                                .set(user)
+                                .addOnSuccessListener { emitter.onSuccess(user) }
+                                .addOnFailureListener { emitter.onError(it) }
+                        }
                     }
                 } else {
                     emitter.onError(task.exception!!)
@@ -36,15 +38,17 @@ class UserRepository(private val database: FirebaseFirestore) {
             ref.get().addOnCompleteListener { task ->
                 if (task.isSuccessful) {
                     val document = task.result
-                    if (document.exists()) {
-                        val enteredUser = document.toObject(User::class.java)
-                        if (enteredUser != null && enteredUser.password.contentEquals(user.password)) {
-                            emitter.onSuccess(enteredUser)
+                    if (document != null) {
+                        if (document.exists()) {
+                            val enteredUser = document.toObject(User::class.java)
+                            if (enteredUser != null && enteredUser.password.contentEquals(user.password)) {
+                                emitter.onSuccess(enteredUser)
+                            } else {
+                                emitter.onError(Exception("Password incorrect"))
+                            }
                         } else {
-                            emitter.onError(Exception("Password incorrect"))
+                            emitter.onError(Exception("User does not exists"))
                         }
-                    } else {
-                        emitter.onError(Exception("User does not exists"))
                     }
                 } else {
                     emitter.onError(task.exception!!)

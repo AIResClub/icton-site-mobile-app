@@ -1,5 +1,10 @@
 package com.itmo.ictmobile.util
 
-import android.content.res.Resources
+import androidx.annotation.StringRes
+import com.itmo.IctApp
 
-fun getString(resId: Int) = Resources.getSystem().getString(resId)
+object Strings {
+    fun get(@StringRes stringRes: Int, vararg formatArgs: Any = emptyArray()): String {
+        return IctApp.instance.getString(stringRes, *formatArgs)
+    }
+}
