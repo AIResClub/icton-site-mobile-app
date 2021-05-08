@@ -1,11 +1,8 @@
 package com.itmo.ictmobile
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
+import androidx.appcompat.app.AppCompatActivity
 import com.itmo.IctApp
 import com.itmo.ictmobile.screens.sign.SignActivity
 import com.itmo.ictmobile.util.Preferences
