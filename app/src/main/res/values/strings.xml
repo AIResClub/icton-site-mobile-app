@@ -12,4 +12,11 @@
     <string name="first_name">Имя</string>
     <string name="second_name">Фамилия</string>
     <string name="is_student">Вы студент</string>
+
+    <string name="incorrect_username">Некорректно введен логин</string>
+    <string name="incorrect_password">Некорректно введен пароль</string>
+    <string name="incorrect_first_name">Некорректно введено имя</string>
+    <string name="incorrect_second_name">Некорректно введена фамилия</string>
+
+    <string name="sign_failed">Ошибка подключения</string>
 </resources>

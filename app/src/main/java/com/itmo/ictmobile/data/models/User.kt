@@ -5,7 +5,7 @@ class User(
     var password: String = "",
     var firstName: String = "",
     var secondName: String = "",
-    var points: Int = 0,
-    var isStudent: Boolean = false
-) {
+    var isStudent: Boolean = false,
+    var points: Int = 0
+    ) {
 }

@@ -1,4 +1,4 @@
-package com.itmo.ictmobile.data.remote
+package com.itmo.ictmobile.data.remote.user
 
 import com.google.firebase.firestore.FirebaseFirestore
 import com.itmo.ictmobile.data.models.User
