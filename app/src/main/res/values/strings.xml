@@ -19,4 +19,7 @@
     <string name="incorrect_second_name">Некорректно введена фамилия</string>
 
     <string name="sign_failed">Ошибка подключения</string>
+    <string name="q_and_a">Ответы на вопросы</string>
+    <string name="clubs">Клубы</string>
+    <string name="events">Мероприятия</string>
 </resources>

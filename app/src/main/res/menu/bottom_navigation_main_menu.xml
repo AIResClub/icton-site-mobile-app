@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/clubFragment"
+        android:icon="@drawable/ict_group"
+        android:title="@string/clubs" />
+
+    <item
+        android:id="@+id/askIctFragment"
+        android:icon="@drawable/ic_ask"
+        android:title="@string/q_and_a" />
+
+    <item
+        android:id="@+id/eventFragment"
+        android:icon="@drawable/ict_events"
+        android:title="@string/events" />
+
+</menu>
