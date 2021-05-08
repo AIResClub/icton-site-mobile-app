@@ -1,5 +1,6 @@
 package com.itmo.ictmobile.screens.sign.login
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,8 +9,11 @@ import android.widget.Button
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
+import com.itmo.IctApp
+import com.itmo.ictmobile.MainActivity
 import com.itmo.ictmobile.R
 import com.itmo.ictmobile.data.models.User
+import com.itmo.ictmobile.util.Preferences
 import com.itmo.ictmobile.util.toast
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
@@ -44,7 +48,10 @@ class LoginFragment : Fragment(R.layout.login_fragment) {
                     )
                         .observeOn(AndroidSchedulers.mainThread())
                         .subscribe(
-                            { user -> },
+                            { user ->
+                                Preferences(IctApp.sharedPreferences).saveUser(user)
+                                startActivity(Intent(activity, MainActivity::class.java))
+                            },
                             { e ->
                                 enterButton.isEnabled = true
                                 loadingProgress.visibility = View.GONE
