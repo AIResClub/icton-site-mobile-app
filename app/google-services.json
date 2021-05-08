@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411333532156",
+    "project_id": "ictmobile-d4768",
+    "storage_bucket": "ictmobile-d4768.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411333532156:android:b4069bef0272c4bf27fa79",
+        "android_client_info": {
+          "package_name": "com.itmo.ictmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411333532156-q9omel677fc07jja3s43jbb8tuqgpbt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAb0rfzDI25_UhypVQeAk5LGLYmzbojb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411333532156-q9omel677fc07jja3s43jbb8tuqgpbt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
