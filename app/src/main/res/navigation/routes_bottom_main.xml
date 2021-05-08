@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/routes_bottom_main"
+    app:startDestination="@id/askIctFragment">
+
+    <fragment
+        android:id="@+id/askIctFragment"
+        android:name="com.itmo.ictmobile.screens.askIct.AskIctFragment"
+        android:label="@string/q_and_a"
+        tools:layout="@layout/askict_fragment" />
+    <fragment
+        android:id="@+id/clubFragment"
+        android:name="com.itmo.ictmobile.screens.clubs.ClubFragment"
+        android:label="@string/clubs"
+        tools:layout="@layout/club_fragment" />
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="com.itmo.ictmobile.screens.event.EventFragment"
+        android:label="@string/events"
+        tools:layout="@layout/event_fragment" />
+</navigation>
