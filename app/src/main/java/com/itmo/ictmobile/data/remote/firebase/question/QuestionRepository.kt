@@ -1,6 +1,7 @@
 package com.itmo.ictmobile.data.remote.firebase.question
 
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.Query
 import com.itmo.ictmobile.data.models.Question
 import io.reactivex.Completable
 import io.reactivex.Observable
@@ -21,6 +22,7 @@ class QuestionRepository(private val database: FirebaseFirestore) {
     fun getQuestions(): Observable<List<Question>> {
         return Observable.create(ObservableOnSubscribe<List<Question>> { emitter ->
             database.collection("questions")
+                .orderBy("timeSend", Query.Direction.DESCENDING)
                 .addSnapshotListener { snapshot, error ->
                     if (error != null) {
                         emitter.onError(error)
@@ -35,7 +37,8 @@ class QuestionRepository(private val database: FirebaseFirestore) {
                                 Question(
                                     doc.getString("author")!!,
                                     doc.getString("username")!!,
-                                    doc.getString("questionText")!!
+                                    doc.getString("questionText")!!,
+                                    doc.getLong("timeSend")!!
                                 )
                             )
                         }

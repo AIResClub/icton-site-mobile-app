@@ -75,7 +75,8 @@ class AskIctFragment : Fragment(R.layout.askict_fragment) {
                 val question = Question(
                     "${currentUser!!.firstName} ${currentUser.secondName}",
                     currentUser.username,
-                    it.text.toString()
+                    it.text.toString(),
+                    System.currentTimeMillis()
                 )
 
                 disposables.add(
