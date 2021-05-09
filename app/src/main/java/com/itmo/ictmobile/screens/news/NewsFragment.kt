@@ -10,7 +10,6 @@ import com.itmo.IctApp
 import com.itmo.ictmobile.R
 import com.itmo.ictmobile.adapters.recycler.NewAdapter
 import com.itmo.ictmobile.data.models.ArticlesItem
-import com.itmo.ictmobile.data.remote.newsapi.NewsApiService
 import kotlinx.android.synthetic.main.news_fragment.*
 
 class NewsFragment : Fragment(R.layout.news_fragment) {

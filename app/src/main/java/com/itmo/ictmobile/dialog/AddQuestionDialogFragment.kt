@@ -1,13 +1,11 @@
 package com.itmo.ictmobile.dialog
 
-import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.app.Dialog
 import android.os.Bundle
 import android.widget.EditText
 import androidx.fragment.app.DialogFragment
 import com.itmo.ictmobile.R
-import kotlinx.android.synthetic.main.dialog_quest_add.*
 
 class AddQuestionDialogFragment(private val yesOption: (editText: EditText) -> Unit) :
     DialogFragment() {

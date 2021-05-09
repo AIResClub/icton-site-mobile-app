@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IctMobile</string>
+    <string name="app_name">ICTapp</string>
 
     <string name="enter">Войти</string>
     <string name="login">Вход</string>
@@ -32,4 +32,6 @@
     <string name="cancel_question_btn">Отмена</string>
     <string name="answer">Ответить</string>
     <string name="news">Новости</string>
+
+    <string name="in_develop">В разработке</string>
 </resources>

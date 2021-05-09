@@ -47,6 +47,7 @@ class LoginFragment : Fragment(R.layout.login_fragment) {
                             { user ->
                                 Preferences(IctApp.sharedPreferences).saveUser(user)
                                 startActivity(Intent(activity, MainActivity::class.java))
+                                activity?.finish()
                             },
                             { e ->
                                 enterButton.isEnabled = true
