@@ -7,6 +7,9 @@
     <string name="registration">Регистрация</string>
     <string name="enter_registration">Зарегистрироваться</string>
 
+    <string name="event">Мероприятие</string>
+    <string name="project">Проект</string>
+
     <string name="username">Логин</string>
     <string name="password">Пароль</string>
     <string name="first_name">Имя</string>
@@ -19,7 +22,14 @@
     <string name="incorrect_second_name">Некорректно введена фамилия</string>
 
     <string name="sign_failed">Ошибка подключения</string>
-    <string name="q_and_a">Ответы на вопросы</string>
+    <string name="q_and_a">Вопросы</string>
     <string name="clubs">Клубы</string>
     <string name="events">Мероприятия</string>
+    <string name="add">Добавить</string>
+
+    <string name="add_question">Добавить вопрос</string>
+    <string name="add_question_btn">Добавить</string>
+    <string name="cancel_question_btn">Отмена</string>
+    <string name="answer">Ответить</string>
+    <string name="news">Новости</string>
 </resources>

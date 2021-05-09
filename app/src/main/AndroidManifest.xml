@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".screens.sign.SignActivity" />
+        <activity android:name=".screens.askIct.askquestion.AnswerIctActivity" />
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import com.itmo.IctApp
 import com.itmo.ictmobile.data.models.User
-import com.itmo.ictmobile.data.remote.user.UserService
+import com.itmo.ictmobile.data.remote.firebase.user.UserService
 
 class LoginViewModel(
     application: Application

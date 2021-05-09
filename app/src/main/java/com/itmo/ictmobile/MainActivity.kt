@@ -21,9 +21,14 @@ class MainActivity : AppCompatActivity() {
         goToAuthIfLoggedOut()
 
         initBottomMenu()
+
+        setSupportActionBar(toolbar)
+
+        supportActionBar?.setDisplayShowTitleEnabled(false)
     }
 
     private fun isAuth(): Boolean {
+
         if (Preferences(IctApp.sharedPreferences).getUser() == null) {
             return false
         }
@@ -31,6 +36,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun goToAuthIfLoggedOut() {
+
         if (!isAuth()) {
             startActivity(Intent(this, SignActivity::class.java))
             finish()
