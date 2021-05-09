@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun isAuth(): Boolean {
+
         if (Preferences(IctApp.sharedPreferences).getUser() == null) {
             return false
         }

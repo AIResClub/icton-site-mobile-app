@@ -1,5 +1,6 @@
 package com.itmo.ictmobile.adapters.recycler
 
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -9,7 +10,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.itmo.ictmobile.R
 import com.itmo.ictmobile.data.models.Question
+import com.itmo.ictmobile.screens.askIct.askquestion.AnswerIctActivity
 import com.itmo.ictmobile.screens.askIct.askquestion.AnswerIctQuestionFragment
+import com.itmo.ictmobile.screens.sign.SignActivity
 
 class QuestionAdapter : RecyclerView.Adapter<QuestionAdapter.QuestionViewHolder>() {
 
@@ -45,9 +48,10 @@ class QuestionAdapter : RecyclerView.Adapter<QuestionAdapter.QuestionViewHolder>
             author.text = question.author
 
             itemView.setOnClickListener {
-                (itemView.context as AppCompatActivity).supportFragmentManager.beginTransaction()
-                    .replace(R.id.nav_host_fragment, AnswerIctQuestionFragment(question))
-                    .commit()
+                val i = Intent(itemView.context, AnswerIctActivity::class.java)
+                i.putExtra("questionText", question.questionText)
+                i.putExtra("questionId", question.id)
+                itemView.context.startActivity(i)
             }
         }
 

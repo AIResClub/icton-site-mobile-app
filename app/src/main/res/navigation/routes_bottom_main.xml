@@ -20,4 +20,9 @@
         android:name="com.itmo.ictmobile.screens.event.EventFragment"
         android:label="@string/events"
         tools:layout="@layout/event_fragment" />
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.itmo.ictmobile.screens.news.NewsFragment"
+        android:label="@string/news"
+        tools:layout="@layout/news_fragment"/>
 </navigation>
