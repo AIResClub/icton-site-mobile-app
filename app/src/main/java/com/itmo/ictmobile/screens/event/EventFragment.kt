@@ -11,11 +11,11 @@ class EventFragment : Fragment(R.layout.event_fragment) {
     override fun onStart() {
         super.onStart()
 
-        val fragmentAdapter = activity?.let { EventPagerAdapter(it.supportFragmentManager) }
-        viewpager_sign.adapter = fragmentAdapter
+        val fragmentAdapter = EventPagerAdapter(childFragmentManager)
+        viewpager_event.adapter = fragmentAdapter
 
-        tabs_sign.setupWithViewPager(viewpager_sign)
+        tabs_event.setupWithViewPager(viewpager_event)
+
     }
-
 
 }

@@ -73,7 +73,7 @@ class AnswerIctQuestionFragment(private val question: Question) : Fragment(R.lay
                 answerIctQuestionViewModel.createAnswer(answer)
                     .observeOn(AndroidSchedulers.mainThread())
                     .subscribe(
-                        {  },
+                        { answerEt.text.clear() },
                         { toast(Strings.get(R.string.sign_failed)) }
                     )
             )
