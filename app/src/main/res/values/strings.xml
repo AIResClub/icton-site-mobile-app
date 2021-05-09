@@ -7,6 +7,9 @@
     <string name="registration">Регистрация</string>
     <string name="enter_registration">Зарегистрироваться</string>
 
+    <string name="event">Мероприятие</string>
+    <string name="project">Проект</string>
+
     <string name="username">Логин</string>
     <string name="password">Пароль</string>
     <string name="first_name">Имя</string>

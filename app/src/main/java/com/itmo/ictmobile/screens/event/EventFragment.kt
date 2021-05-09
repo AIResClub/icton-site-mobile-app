@@ -1,10 +1,9 @@
 package com.itmo.ictmobile.screens.event
 
-import android.os.Bundle
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProviders
 import com.itmo.ictmobile.R
-import io.reactivex.disposables.CompositeDisposable
+import com.itmo.ictmobile.adapters.pagers.EventPagerAdapter
+import kotlinx.android.synthetic.main.event_fragment.*
 
 class EventFragment : Fragment(R.layout.event_fragment) {
 
@@ -12,7 +11,10 @@ class EventFragment : Fragment(R.layout.event_fragment) {
     override fun onStart() {
         super.onStart()
 
-        // TODO: BUTTONS
+        val fragmentAdapter = activity?.let { EventPagerAdapter(it.supportFragmentManager) }
+        viewpager_sign.adapter = fragmentAdapter
+
+        tabs_sign.setupWithViewPager(viewpager_sign)
     }
 
 
