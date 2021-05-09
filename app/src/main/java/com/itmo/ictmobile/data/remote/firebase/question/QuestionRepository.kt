@@ -35,6 +35,7 @@ class QuestionRepository(private val database: FirebaseFirestore) {
                         for (doc in snapshot) {
                             questions.add(
                                 Question(
+                                    doc.id,
                                     doc.getString("author")!!,
                                     doc.getString("username")!!,
                                     doc.getString("questionText")!!,

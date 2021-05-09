@@ -27,4 +27,5 @@
     <string name="add_question">Добавить вопрос</string>
     <string name="add_question_btn">Добавить</string>
     <string name="cancel_question_btn">Отмена</string>
+    <string name="answer">Ответить</string>
 </resources>
