@@ -6,8 +6,10 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:layout_width="140dp"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_ict_logo"
         app:layout_constraintEnd_toEndOf="parent"
