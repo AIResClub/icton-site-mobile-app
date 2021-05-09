@@ -1,0 +1,522 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:2:1-16:12
+MERGED from [io.coil-kt:coil-base:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\3d514f83ead392210a87878166de3158\jetified-coil-base-0.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8e5ce0050edbac5406fa6bd9115bb073\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\76173d516c994a31e58ef0430e010f5d\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b53edbf85a25d20959444d0170999aea\navigation-ui-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ff795a57d1539768f51fc80101ba057f\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2e5f8c3908199eb7306f9180bff29c47\navigation-common-ktx-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\da24284df09ce63f1122be5261d25744\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5ac095bc27153d1bf34614b11ea4b371\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e93b691354ee934a641e9dd30d3a5a94\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8b87d8aa18aec9e25bbcf103f3e83fd4\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d68827c4a0ff18f2b37b1f7a6f13ef95\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e1c4655b785936b057a19588c49aebfc\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:2:1-21:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ab809126f4f7dbd8b497b6a54337ead0\navigation-ui-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\07c81ab9e12e9bb3151dee387d940a66\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\fae3eafc652ef82af48d7250dbf03798\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e0378f8c1d3117da05875ab00019a56c\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f8e041742ff4a78d4e51c5eb15a22184\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\9e9a000ecb62cd60b870848e4ec26f60\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c90b6fd4e1ba3ac9319338f974ca327f\navigation-fragment-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:17:1-83:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\15acedb59fd44556d420eadf79eb927e\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c85a972ebf1021f624a2595f10de622c\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5809d09fdd6f7110c739dc52abf7dfed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\aa628d6d617ff054a85ec72c39f8a28f\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:15:1-49:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8810bc1c3dc0b003f50c6aa6cd9e0c8b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\6a6b22940d35a971b80534b279b42ad0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\31e174e3a00865b4e29cf51a3e793d6f\fragment-1.2.5\AndroidManifest.xml:17:1-24:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a443ba3dc195da8f532f73f42b12d1f8\jetified-rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e201534442b7ad8c3fd24eca949af5c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c02e2dfd5d9488cb708932806055f5a3\browser-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d9b8d4d9c652f120953d661939612b94\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2279a3a6f5347348cdb764ca97a3be84\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\0572d4e4f518a98be2aa6a7e26d0f20a\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\66f4f8c2a39041691763cf2915f3f2bc\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\31014e51fc913036dc5e20bfce534cc4\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5beb6150323637b2fc2846cd556fe424\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c62e88c22303b8ba0a2441a72e330ca6\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\36a4fce1d30413222aa20189408731c8\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\9ba1745fc5ee49b35e7c2e6de09adc34\navigation-runtime-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8046aa0f4832f9e5c2cf03785b6c957c\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\18ba1accdbbb2ef52a7f8e334e6de2f4\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\4dc728f03f7b96bb4bc4528a48d1fb62\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d2753360139fc02226262ae01f10e243\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ab840a4bf77f913b952f1a47af860d36\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\77d7d20275889a7bfbbebc2b9934879e\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\4c933d1b7575043b3762947aa63ae1d9\navigation-common-2.3.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d423a69c6f1f085aa8381b24c7f42c77\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\af1a60726ca6c137b6ba5205aae15dd0\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1f94a4c2bdf88d31742879a8d37fdda3\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\172f2b9346f9677b2bb0671a8c83ae68\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f7fc7c4c3863732f0e2d5f6327d4ca3a\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\7eb2586f7ec83777356ecc5357928bee\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1bc780b718d05a2f7048064c097ad33f\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\83f234c314722b35d34a2c8239c01f88\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\edd4af655dbd057eb5be5d6fe5eb858a\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f16b72ea3a1edde32afb327d0283d421\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\00bd89eae6c0e1fcfd0c251b33859385\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\719748a444eb57b682b6d266a7e6428f\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a06229d10157c7bc2d197301a8764447\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\784a76c815dc233d906399ecf53fe222\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8cdd414dfaf8276ca8aa4d15a9a0ac25\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\75c489ca9644540d4a6e843b448d241d\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a222ecf57e43d099e31f45f99accb94a\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\441c627a83707f9ee16ec7e5a72eede1\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5f9abb899f07749543275aa77807f688\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\410b96b6edeaa2f026b4df55a4871fff\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d1991d3b6bbf1d981bd5904c8dac7049\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\36d143d4231c83e760f708dc998e96e2\jetified-grpc-android-1.28.0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e100a95c05d84d114a846d9a71459157\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:2:1-11:12
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:9:5-14:19
+MERGED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:9:5-14:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\07c81ab9e12e9bb3151dee387d940a66\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\07c81ab9e12e9bb3151dee387d940a66\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\fae3eafc652ef82af48d7250dbf03798\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\fae3eafc652ef82af48d7250dbf03798\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f8e041742ff4a78d4e51c5eb15a22184\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f8e041742ff4a78d4e51c5eb15a22184\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:26:5-81:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c85a972ebf1021f624a2595f10de622c\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c85a972ebf1021f624a2595f10de622c\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\aa628d6d617ff054a85ec72c39f8a28f\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\aa628d6d617ff054a85ec72c39f8a28f\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8810bc1c3dc0b003f50c6aa6cd9e0c8b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8810bc1c3dc0b003f50c6aa6cd9e0c8b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\6a6b22940d35a971b80534b279b42ad0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\6a6b22940d35a971b80534b279b42ad0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1f94a4c2bdf88d31742879a8d37fdda3\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1f94a4c2bdf88d31742879a8d37fdda3\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\7eb2586f7ec83777356ecc5357928bee\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\7eb2586f7ec83777356ecc5357928bee\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1f94a4c2bdf88d31742879a8d37fdda3\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:14:9-47
+	android:name
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:8:9-39
+activity#com.itmo.ictmobile.MainActivity
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:15:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.itmo.ictmobile.screens.sign.SignActivity
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:22:19-60
+activity#com.itmo.ictmobile.screens.askIct.askquestion.AnswerIctActivity
+ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:23:9-82
+	android:name
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml:23:19-79
+uses-sdk
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+MERGED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\3d514f83ead392210a87878166de3158\jetified-coil-base-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [io.coil-kt:coil-base:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\3d514f83ead392210a87878166de3158\jetified-coil-base-0.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8e5ce0050edbac5406fa6bd9115bb073\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8e5ce0050edbac5406fa6bd9115bb073\navigation-fragment-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\76173d516c994a31e58ef0430e010f5d\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\76173d516c994a31e58ef0430e010f5d\jetified-fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b53edbf85a25d20959444d0170999aea\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b53edbf85a25d20959444d0170999aea\navigation-ui-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ff795a57d1539768f51fc80101ba057f\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ff795a57d1539768f51fc80101ba057f\navigation-runtime-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2e5f8c3908199eb7306f9180bff29c47\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2e5f8c3908199eb7306f9180bff29c47\navigation-common-ktx-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\da24284df09ce63f1122be5261d25744\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\da24284df09ce63f1122be5261d25744\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5ac095bc27153d1bf34614b11ea4b371\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5ac095bc27153d1bf34614b11ea4b371\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e93b691354ee934a641e9dd30d3a5a94\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e93b691354ee934a641e9dd30d3a5a94\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8b87d8aa18aec9e25bbcf103f3e83fd4\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8b87d8aa18aec9e25bbcf103f3e83fd4\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d68827c4a0ff18f2b37b1f7a6f13ef95\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d68827c4a0ff18f2b37b1f7a6f13ef95\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e1c4655b785936b057a19588c49aebfc\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e1c4655b785936b057a19588c49aebfc\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ab809126f4f7dbd8b497b6a54337ead0\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ab809126f4f7dbd8b497b6a54337ead0\navigation-ui-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\07c81ab9e12e9bb3151dee387d940a66\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\07c81ab9e12e9bb3151dee387d940a66\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\fae3eafc652ef82af48d7250dbf03798\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\fae3eafc652ef82af48d7250dbf03798\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e0378f8c1d3117da05875ab00019a56c\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e0378f8c1d3117da05875ab00019a56c\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f8e041742ff4a78d4e51c5eb15a22184\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f8e041742ff4a78d4e51c5eb15a22184\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\9e9a000ecb62cd60b870848e4ec26f60\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\9e9a000ecb62cd60b870848e4ec26f60\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c90b6fd4e1ba3ac9319338f974ca327f\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c90b6fd4e1ba3ac9319338f974ca327f\navigation-fragment-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\15acedb59fd44556d420eadf79eb927e\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\15acedb59fd44556d420eadf79eb927e\jetified-play-services-auth-api-phone-17.4.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c85a972ebf1021f624a2595f10de622c\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c85a972ebf1021f624a2595f10de622c\jetified-play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5809d09fdd6f7110c739dc52abf7dfed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:17.0.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5809d09fdd6f7110c739dc52abf7dfed\jetified-firebase-database-collection-17.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\aa628d6d617ff054a85ec72c39f8a28f\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\aa628d6d617ff054a85ec72c39f8a28f\jetified-firebase-auth-interop-19.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8810bc1c3dc0b003f50c6aa6cd9e0c8b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8810bc1c3dc0b003f50c6aa6cd9e0c8b\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\6a6b22940d35a971b80534b279b42ad0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\6a6b22940d35a971b80534b279b42ad0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\31e174e3a00865b4e29cf51a3e793d6f\fragment-1.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\31e174e3a00865b4e29cf51a3e793d6f\fragment-1.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a443ba3dc195da8f532f73f42b12d1f8\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a443ba3dc195da8f532f73f42b12d1f8\jetified-rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e201534442b7ad8c3fd24eca949af5c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e201534442b7ad8c3fd24eca949af5c8\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c02e2dfd5d9488cb708932806055f5a3\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c02e2dfd5d9488cb708932806055f5a3\browser-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d9b8d4d9c652f120953d661939612b94\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d9b8d4d9c652f120953d661939612b94\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2279a3a6f5347348cdb764ca97a3be84\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2279a3a6f5347348cdb764ca97a3be84\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\0572d4e4f518a98be2aa6a7e26d0f20a\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\0572d4e4f518a98be2aa6a7e26d0f20a\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\66f4f8c2a39041691763cf2915f3f2bc\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\66f4f8c2a39041691763cf2915f3f2bc\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\31014e51fc913036dc5e20bfce534cc4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\31014e51fc913036dc5e20bfce534cc4\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5beb6150323637b2fc2846cd556fe424\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5beb6150323637b2fc2846cd556fe424\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c62e88c22303b8ba0a2441a72e330ca6\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\c62e88c22303b8ba0a2441a72e330ca6\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\36a4fce1d30413222aa20189408731c8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\36a4fce1d30413222aa20189408731c8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\9ba1745fc5ee49b35e7c2e6de09adc34\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\9ba1745fc5ee49b35e7c2e6de09adc34\navigation-runtime-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8046aa0f4832f9e5c2cf03785b6c957c\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8046aa0f4832f9e5c2cf03785b6c957c\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\18ba1accdbbb2ef52a7f8e334e6de2f4\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\18ba1accdbbb2ef52a7f8e334e6de2f4\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\4dc728f03f7b96bb4bc4528a48d1fb62\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\4dc728f03f7b96bb4bc4528a48d1fb62\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d2753360139fc02226262ae01f10e243\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d2753360139fc02226262ae01f10e243\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ab840a4bf77f913b952f1a47af860d36\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ab840a4bf77f913b952f1a47af860d36\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\77d7d20275889a7bfbbebc2b9934879e\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\77d7d20275889a7bfbbebc2b9934879e\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\4c933d1b7575043b3762947aa63ae1d9\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.5] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\4c933d1b7575043b3762947aa63ae1d9\navigation-common-2.3.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d423a69c6f1f085aa8381b24c7f42c77\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d423a69c6f1f085aa8381b24c7f42c77\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\af1a60726ca6c137b6ba5205aae15dd0\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\af1a60726ca6c137b6ba5205aae15dd0\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1f94a4c2bdf88d31742879a8d37fdda3\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1f94a4c2bdf88d31742879a8d37fdda3\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\172f2b9346f9677b2bb0671a8c83ae68\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\172f2b9346f9677b2bb0671a8c83ae68\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f7fc7c4c3863732f0e2d5f6327d4ca3a\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f7fc7c4c3863732f0e2d5f6327d4ca3a\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\7eb2586f7ec83777356ecc5357928bee\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\7eb2586f7ec83777356ecc5357928bee\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1bc780b718d05a2f7048064c097ad33f\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1bc780b718d05a2f7048064c097ad33f\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\83f234c314722b35d34a2c8239c01f88\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\83f234c314722b35d34a2c8239c01f88\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\edd4af655dbd057eb5be5d6fe5eb858a\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\edd4af655dbd057eb5be5d6fe5eb858a\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f16b72ea3a1edde32afb327d0283d421\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\f16b72ea3a1edde32afb327d0283d421\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\00bd89eae6c0e1fcfd0c251b33859385\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\00bd89eae6c0e1fcfd0c251b33859385\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\719748a444eb57b682b6d266a7e6428f\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\719748a444eb57b682b6d266a7e6428f\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a06229d10157c7bc2d197301a8764447\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a06229d10157c7bc2d197301a8764447\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\784a76c815dc233d906399ecf53fe222\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\784a76c815dc233d906399ecf53fe222\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8cdd414dfaf8276ca8aa4d15a9a0ac25\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\8cdd414dfaf8276ca8aa4d15a9a0ac25\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\75c489ca9644540d4a6e843b448d241d\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\75c489ca9644540d4a6e843b448d241d\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a222ecf57e43d099e31f45f99accb94a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\a222ecf57e43d099e31f45f99accb94a\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\441c627a83707f9ee16ec7e5a72eede1\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\441c627a83707f9ee16ec7e5a72eede1\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5f9abb899f07749543275aa77807f688\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\5f9abb899f07749543275aa77807f688\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\410b96b6edeaa2f026b4df55a4871fff\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\410b96b6edeaa2f026b4df55a4871fff\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d1991d3b6bbf1d981bd5904c8dac7049\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\d1991d3b6bbf1d981bd5904c8dac7049\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\36d143d4231c83e760f708dc998e96e2\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\36d143d4231c83e760f708dc998e96e2\jetified-grpc-android-1.28.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e100a95c05d84d114a846d9a71459157\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:17.1.1] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\e100a95c05d84d114a846d9a71459157\jetified-protolite-well-known-types-17.1.1\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Egor\Desktop\icton-site-mobile-app\app\src\main\AndroidManifest.xml
+provider#coil.util.CoilContentProvider
+ADDED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:10:9-13:40
+	android:authorities
+		ADDED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:12:13-56
+	android:exported
+		ADDED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [io.coil-kt:coil:0.7.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\b707c0100f0116447b7469f8b12d73c9\jetified-coil-0.7.0\AndroidManifest.xml:11:13-57
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:74:9-80:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:33:9-46:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:33:9-46:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:14:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:13:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ea9be27cf52f104ab77bd6fe30e820d4\jetified-firebase-firestore-ktx-22.1.2\AndroidManifest.xml:16:17-126
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\36d143d4231c83e760f708dc998e96e2\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+MERGED from [io.grpc:grpc-android:1.28.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\36d143d4231c83e760f708dc998e96e2\jetified-grpc-android-1.28.0\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:13:22-76
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:22.1.2] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\995c82409d00c9abbc2522f6428b8bbb\jetified-firebase-firestore-22.1.2\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\46c66ff6b29395c7a6add1d0e8cae625\jetified-firebase-auth-ktx-20.0.4\AndroidManifest.xml:12:17-116
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ce888931d247ec920165f8a6a12cfa5c\jetified-firebase-common-ktx-19.5.0\AndroidManifest.xml:16:17-113
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:51:13-61:29
+service#com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:64:9-73:19
+	android:enabled
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:66:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:65:13-101
+intent-filter#action:name:com.google.firebase.auth.api.gms.service.START+category:name:android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:68:13-72:29
+action#com.google.firebase.auth.api.gms.service.START
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:17-89
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:25-86
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:77:13-79:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:79:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:20.0.4] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\2baee0b790003181db349d3942abfd3e\jetified-firebase-auth-20.0.4\AndroidManifest.xml:78:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\1259ee2a8bca3b1cf71d7c6437ea10fd\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+meta-data#com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar
+ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\ae2f92689330c0b3f959376548f2eea6\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\6a6b22940d35a971b80534b279b42ad0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\6a6b22940d35a971b80534b279b42ad0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\6a6b22940d35a971b80534b279b42ad0\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Egor\.gradle\caches\transforms-2\files-2.1\58ad4d7159b68fad2707afae625eba23\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
