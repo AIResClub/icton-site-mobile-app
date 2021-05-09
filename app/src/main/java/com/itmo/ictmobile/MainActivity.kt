@@ -21,6 +21,10 @@ class MainActivity : AppCompatActivity() {
         goToAuthIfLoggedOut()
 
         initBottomMenu()
+
+        setSupportActionBar(toolbar)
+
+        supportActionBar?.setDisplayShowTitleEnabled(false)
     }
 
     private fun isAuth(): Boolean {

@@ -7,5 +7,4 @@ data class User(
     var secondName: String = "",
     var isStudent: Boolean = false,
     var points: Int = 0
-    ) {
-}
+    )

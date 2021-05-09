@@ -22,4 +22,9 @@
     <string name="q_and_a">Ответы на вопросы</string>
     <string name="clubs">Клубы</string>
     <string name="events">Мероприятия</string>
+    <string name="add">Добавить</string>
+
+    <string name="add_question">Добавить вопрос</string>
+    <string name="add_question_btn">Добавить</string>
+    <string name="cancel_question_btn">Отмена</string>
 </resources>
