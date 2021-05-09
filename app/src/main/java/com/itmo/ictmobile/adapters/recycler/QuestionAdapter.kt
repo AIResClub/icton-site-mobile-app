@@ -15,7 +15,7 @@ class QuestionAdapter : RecyclerView.Adapter<QuestionAdapter.QuestionViewHolder>
     override fun onCreateViewHolder(
         parent: ViewGroup,
         viewType: Int
-    ): QuestionAdapter.QuestionViewHolder {
+    ): QuestionViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val itemView = inflater.inflate(R.layout.item_question, parent, false)
         return QuestionViewHolder(itemView)
@@ -23,12 +23,13 @@ class QuestionAdapter : RecyclerView.Adapter<QuestionAdapter.QuestionViewHolder>
 
     override fun getItemCount() = questions.size
 
-    override fun onBindViewHolder(holder: QuestionAdapter.QuestionViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: QuestionViewHolder, position: Int) {
         holder.bind(questions[position])
     }
 
     fun updateQuestions(newQuestions: List<Question>) {
         questions = newQuestions
+        notifyDataSetChanged()
     }
 
     class QuestionViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {

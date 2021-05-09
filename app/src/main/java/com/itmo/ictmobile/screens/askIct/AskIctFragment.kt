@@ -37,8 +37,6 @@ class AskIctFragment : Fragment(R.layout.askict_fragment) {
 
         setHasOptionsMenu(true)
 
-        question_rv.setHasFixedSize(true)
-
         questionAdapter = QuestionAdapter()
 
         question_rv.adapter = questionAdapter
