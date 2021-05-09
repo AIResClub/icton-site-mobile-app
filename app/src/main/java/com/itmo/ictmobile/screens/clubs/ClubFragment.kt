@@ -11,17 +11,7 @@ import kotlinx.android.synthetic.main.club_fragment.*
 
 class ClubFragment : Fragment(R.layout.club_fragment) {
 
-    private lateinit var clubViewModel: ClubViewModel
-
-    private val disposable = CompositeDisposable()
-
     private lateinit var clubAdapter: ClubAdapter
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-
-        clubViewModel = ViewModelProviders.of(this).get(ClubViewModel::class.java)
-    }
 
     override fun onStart() {
         super.onStart()
@@ -32,11 +22,6 @@ class ClubFragment : Fragment(R.layout.club_fragment) {
 
         clubAdapter.addClubs(ClubsTestData.get())
 
-    }
-
-    override fun onStop() {
-        super.onStop()
-        disposable.clear()
     }
 
 }

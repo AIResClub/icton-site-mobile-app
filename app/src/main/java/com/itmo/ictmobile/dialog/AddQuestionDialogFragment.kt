@@ -1,5 +1,6 @@
 package com.itmo.ictmobile.dialog
 
+import android.annotation.SuppressLint
 import android.app.AlertDialog
 import android.app.Dialog
 import android.os.Bundle
@@ -14,12 +15,14 @@ class AddQuestionDialogFragment(private val yesOption: (editText: EditText) -> U
         return activity?.let {
             val inflater = requireActivity().layoutInflater
             val builder = AlertDialog.Builder(it)
-//            val editText = EditText(activity)
+            val input = EditText(it)
             builder.setView(inflater.inflate(R.layout.dialog_quest_add, null))
+                .setTitle("Создать тред")
+                .setView(input)
                 .setPositiveButton(
                     R.string.add_question_btn
                 ) { dialogInterface, i ->
-                    yesOption(edit_quest)
+                    yesOption(input)
                 }
                 .setNegativeButton(
                     R.string.cancel_question_btn
