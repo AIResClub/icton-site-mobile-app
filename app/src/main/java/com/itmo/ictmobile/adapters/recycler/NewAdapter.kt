@@ -12,7 +12,6 @@ import coil.api.load
 import coil.transform.RoundedCornersTransformation
 import com.itmo.ictmobile.R
 import com.itmo.ictmobile.data.models.ArticlesItem
-import com.itmo.ictmobile.data.models.NewsResponse
 
 class NewAdapter : RecyclerView.Adapter<NewAdapter.NewViewHolder>() {
 

@@ -1,7 +1,6 @@
 package com.itmo.ictmobile.screens.askIct.askquestion
 
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
@@ -16,7 +15,6 @@ import com.itmo.ictmobile.util.toast
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import kotlinx.android.synthetic.main.answer_ict_question_fragment.*
-import kotlinx.android.synthetic.main.item_question.*
 
 class AnswerIctQuestionFragment(private val question: Question) : Fragment(R.layout.answer_ict_question_fragment) {
 

@@ -6,8 +6,6 @@ import androidx.fragment.app.FragmentPagerAdapter
 import com.itmo.ictmobile.R
 import com.itmo.ictmobile.screens.event.ActivityFragment
 import com.itmo.ictmobile.screens.event.ProjectFragment
-import com.itmo.ictmobile.screens.sign.login.LoginFragment
-import com.itmo.ictmobile.screens.sign.register.RegisterFragment
 import com.itmo.ictmobile.util.Strings
 
 class EventPagerAdapter(fragmentManager: FragmentManager) :
