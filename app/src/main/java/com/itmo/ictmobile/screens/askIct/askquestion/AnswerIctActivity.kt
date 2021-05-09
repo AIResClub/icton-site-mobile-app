@@ -14,6 +14,10 @@ class AnswerIctActivity : AppCompatActivity() {
 
         setSupportActionBar(toolbar)
 
+
+        supportActionBar?.setDisplayShowHomeEnabled(true)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         val question = Question(
@@ -23,6 +27,11 @@ class AnswerIctActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragment_container, AnswerIctQuestionFragment(question))
             .commit()
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 
 }
