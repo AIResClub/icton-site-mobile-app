@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun goToAuthIfLoggedOut() {
+
         if (!isAuth()) {
             startActivity(Intent(this, SignActivity::class.java))
             finish()
