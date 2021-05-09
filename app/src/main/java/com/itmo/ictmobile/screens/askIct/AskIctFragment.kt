@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import com.itmo.IctApp
 import com.itmo.ictmobile.R
+import com.itmo.ictmobile.adapters.recycler.QuestionAdapter
 import com.itmo.ictmobile.data.models.Question
 import com.itmo.ictmobile.dialog.AddQuestionDialogFragment
 import com.itmo.ictmobile.util.Preferences
@@ -15,12 +16,15 @@ import com.itmo.ictmobile.util.Strings
 import com.itmo.ictmobile.util.toast
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
+import kotlinx.android.synthetic.main.askict_fragment.*
 
 class AskIctFragment : Fragment(R.layout.askict_fragment) {
 
     private lateinit var askIctViewModel: AskIctViewModel
 
     private val disposables = CompositeDisposable()
+
+    private lateinit var questionAdapter: QuestionAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +36,22 @@ class AskIctFragment : Fragment(R.layout.askict_fragment) {
         super.onStart()
 
         setHasOptionsMenu(true)
+
+        question_rv.setHasFixedSize(true)
+
+        questionAdapter = QuestionAdapter()
+
+        question_rv.adapter = questionAdapter
+
+        disposables.add(
+            askIctViewModel.getQuestions()
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(
+                    { questionAdapter.updateQuestions(it) },
+                    { toast(Strings.get(R.string.sign_failed)) }
+                )
+
+        )
     }
 
     override fun onStop() {
@@ -71,10 +91,6 @@ class AskIctFragment : Fragment(R.layout.askict_fragment) {
             }
 
             addQuestionDialog.show(requireActivity().supportFragmentManager, QUESTION_TAG)
-
-//            disposables.add(
-//
-//            )
 
             return true
         }

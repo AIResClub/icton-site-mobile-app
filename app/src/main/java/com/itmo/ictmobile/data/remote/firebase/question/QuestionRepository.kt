@@ -40,9 +40,9 @@ class QuestionRepository(private val database: FirebaseFirestore) {
                             )
                         }
                     }
-
                     emitter.onNext(questions)
                 }
+
         }).subscribeOn(Schedulers.io())
     }
 

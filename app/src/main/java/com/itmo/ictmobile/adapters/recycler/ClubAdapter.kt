@@ -14,7 +14,8 @@ import com.itmo.ictmobile.data.models.Club
 class ClubAdapter : RecyclerView.Adapter<ClubAdapter.ClubViewHolder>() {
 
     private val clubs: MutableList<Club> = mutableListOf()
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClubAdapter.ClubViewHolder {
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ClubViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val itemView = inflater.inflate(R.layout.item_club, parent, false)
         return ClubViewHolder(itemView)
@@ -22,7 +23,7 @@ class ClubAdapter : RecyclerView.Adapter<ClubAdapter.ClubViewHolder>() {
 
     override fun getItemCount() = clubs.size
 
-    override fun onBindViewHolder(holder: ClubAdapter.ClubViewHolder, position: Int) {
+    override fun onBindViewHolder(holder: ClubViewHolder, position: Int) {
         holder.bind(clubs[position])
     }
 
