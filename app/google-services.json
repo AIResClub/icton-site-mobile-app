@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "411333532156",
-    "project_id": "ictmobile-d4768",
-    "storage_bucket": "ictmobile-d4768.appspot.com"
+    "project_number": "391420539952",
+    "firebase_url": "https://ict-app-7ed9c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "ict-app-7ed9c",
+    "storage_bucket": "ict-app-7ed9c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:411333532156:android:b4069bef0272c4bf27fa79",
+        "mobilesdk_app_id": "1:391420539952:android:5e24d8a09fe2f915b3e9f5",
         "android_client_info": {
           "package_name": "com.itmo.ictmobile"
         }
       },
       "oauth_client": [
         {
-          "client_id": "411333532156-q9omel677fc07jja3s43jbb8tuqgpbt3.apps.googleusercontent.com",
+          "client_id": "391420539952-075prq1j9lc9km11vf5q99k09m57vbog.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCAb0rfzDI25_UhypVQeAk5LGLYmzbojb4"
+          "current_key": "AIzaSyDt_d_Cebo5LZ3SM4MC_12Kncke21iAcR4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "411333532156-q9omel677fc07jja3s43jbb8tuqgpbt3.apps.googleusercontent.com",
+              "client_id": "391420539952-075prq1j9lc9km11vf5q99k09m57vbog.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
